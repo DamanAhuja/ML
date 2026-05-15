@@ -9,7 +9,7 @@ Demonstrates:
   - Visualising the cluster assignments
   - Choosing the number of clusters from the dendrogram
 """
-
+ 
 import os
 import numpy as np
 import matplotlib.pyplot as plt
