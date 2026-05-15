@@ -11,7 +11,7 @@ from sklearn.metrics import (accuracy_score, classification_report,
                               confusion_matrix, roc_auc_score,
                               roc_curve, ConfusionMatrixDisplay)
 from sklearn.preprocessing import StandardScaler
-
+ 
 # 1. Load dataset
 data = load_breast_cancer()
 df = pd.DataFrame(data.data, columns=data.feature_names)
