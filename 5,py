@@ -16,7 +16,7 @@ df['Price'] = data.target
 
 print("Shape:", df.shape)
 print(df.head())
-
+ 
 # 2. Features and target
 X = df.drop('Price', axis=1).values
 y = df['Price'].values
