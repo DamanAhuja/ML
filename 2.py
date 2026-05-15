@@ -11,7 +11,7 @@ from sklearn.datasets import fetch_california_housing
 data = fetch_california_housing()
 df = pd.DataFrame(data.data, columns=data.feature_names)
 df['Price'] = data.target
-
+ 
 # 2. Use only ONE feature for Simple Linear Regression
 # Using 'AveRooms' (average number of rooms) to predict house price
 X = df[['AveRooms']].values
