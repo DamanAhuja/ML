@@ -8,7 +8,7 @@ from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.pipeline import Pipeline
-
+ 
 # 1. Create a non-linear dataset (or use real one)
 np.random.seed(42)
 X = np.linspace(-3, 3, 200).reshape(-1, 1)
