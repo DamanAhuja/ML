@@ -11,7 +11,7 @@ from sklearn.metrics import (silhouette_score,
                               adjusted_rand_score)
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-
+ 
 # 1. Load dataset
 data = load_iris()
 df = pd.DataFrame(data.data, columns=data.feature_names)
