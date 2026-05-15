@@ -10,7 +10,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import (accuracy_score, classification_report,
                               confusion_matrix, roc_auc_score)
 from sklearn.preprocessing import label_binarize
-
+ 
 # 1. Load dataset
 iris = load_iris()
 X, y = iris.data, iris.target
